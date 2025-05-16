@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JS & DOM Manipulation</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1 id="main-title">Welcome to JavaScript DOM Demo</h1>
+  </header>
+
+  <section>
+    <p id="description">This paragraph will change when you click the button below.</p>
+    <button onclick="changeText()">Change Text</button>
+  </section>
+
+  <section>
+    <p id="color-box">Watch my color change!</p>
+    <button onclick="changeColor()">Change Color</button>
+  </section>
+
+  <section>
+    <button onclick="addElement()">Add New Item</button>
+    <button onclick="removeElement()">Remove Last Item</button>
+    <ul id="item-list">
+      <li>Item 1</li>
+      <li>Item 2</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 JavaScript Basics</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
